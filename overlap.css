@@ -193,7 +193,6 @@ body{
         margin-left:10px;
         display: flex;
         flex-direction: row;
-        background-color: brown;
     }
     .box1{
         background-color: whitesmoke;
@@ -248,7 +247,6 @@ body{
     }
     .wrapper2{
         margin-left: 10px;
-        background-color: blue;
     }
     .box3{
         margin-top: 100px;
@@ -292,3 +290,6 @@ body{
         margin-bottom: -50px;
     }
 }
+@media screen (min-width:600px) and (max-width: 1024)(
+
+)
