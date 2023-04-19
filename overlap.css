@@ -113,7 +113,6 @@ body{
 @media screen and (max-width:600px){
     .heading{
         display: flex;
-        flex-direction: row;
         align-items: center;
         align-content: center;
         margin-top: 20px;
