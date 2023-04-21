@@ -13,6 +13,7 @@ body{
     align-content: center;
     margin-top: 20px;
     margin-left: 50px;
+    margin-bottom: -20px;
 }
 .mainwrapper{
     display: flex;
@@ -21,6 +22,7 @@ body{
     margin-left:50px;
     margin-right: 10px;
     position: relative;
+    margin-bottom: -90px;
 }
 .wrapper1{
     margin-top: 20px;
