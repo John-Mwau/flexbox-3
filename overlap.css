@@ -20,13 +20,11 @@ body{
     margin-left:50px;
     margin-right: 50px;
     justify-content: center;
-    width: max-content;
 }
 .wrapper1{
     margin-top: 20px;
     margin-right: 10px;
     margin-left:10px;
-    width:fit-content;
 
 }
 .wrapper2{
@@ -94,20 +92,23 @@ body{
         margin-left:10px;
         margin-right: 10px;
         justify-content: center;
+        align-items: center;
     }
     .wrapper1{
         margin-top: 20px;
         margin-left:10px;
         margin-right: 10px;
-        width:fit-content;
     }
     .wrapper2{
         margin-left: 10px;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .box3{
         margin-top: 80px;
-        width:auto;
+        margin-left: 80px;
     }
     .box3 p{
         font-size:35px;
@@ -119,7 +120,7 @@ body{
     }
     .box4{
         margin-top: 20px;
-        width:auto;
+        margin-left: 80px;
     }
     .box4 p{
         font-size: 30px;
@@ -128,7 +129,7 @@ body{
         line-height: 1.5;
     }
     .box5{
-        margin-left: 10px;
+        margin-left: 80px;
         margin-top: 20px;
     }
     .box5 p{
@@ -144,7 +145,7 @@ body{
         display: flex;
         flex-direction:row;
         justify-content: flex-end;
-        margin-left: 100px;
+        margin-left: 150px;
         margin-top: 20px; 
     }
 }
