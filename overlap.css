@@ -18,11 +18,12 @@ body{
 .mainwrapper{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left:50px;
     margin-right: 10px;
     position: relative;
     margin-bottom: -90px;
+    background-color: yellowgreen;
 }
 .wrapper1{
     margin-top: 20px;
@@ -53,7 +54,7 @@ body{
     line-height: 1.5;
     padding-right: 5px;
 }
-.box5 input{
+.box5 p{
     margin-top: 40px;
     width: 200px;
     height:50px;
@@ -65,53 +66,9 @@ body{
 .socialmedia{
     display: flex;
     flex-direction:row;
-    justify-content: end;
-    margin-top: 80px;
-    margin-right: 30px;
-    margin-left: 30px;
+    background-color: aqua;
 }
-.twitter{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    border-radius: 40%;
-    border-color: white;
-    height: 30px;
-}
-.twitter:hover{
-    background-color: white;
-}
-.twitter img{
-    align-items: center;
-}
-.facebook{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    border-radius: 40%;
-    border-color: white;
-    height: 30px;
-}
-.facebook:hover{
-    background-color: white;
-}
-.facebook img{
-    align-items: center;
-}
-.instagram{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    border-radius: 40%;
-    border-color: white;
-    height: 30px;
-}
-.instagram:hover{
-    background-color: white;
-}
-.instagram img{
-    align-items: center;
-}
+
 @media screen and (max-width:600px){
     .heading{
         display: flex;
@@ -162,7 +119,7 @@ body{
         line-height: 1.5;
         padding-right: 5px;
     }
-    .box5 input a{
+    .box5 p{
         color:purple;
         border-radius: 30px;
         margin-left: 30px;
