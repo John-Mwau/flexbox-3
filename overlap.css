@@ -131,6 +131,7 @@ body{
     .wrapper1{
         margin-top: 20px;
         margin-left:10px;
+        margin-right: 10px;
         display: flex;
         flex-direction: row;
     }
@@ -139,7 +140,8 @@ body{
         margin-left: 10px;
     }
     .box3{
-        margin-top: 100px;
+        margin-top: 80px;
+        width:auto;
     }
     .box3 p{
         font-size:25px;
@@ -147,10 +149,11 @@ body{
         font-weight: bolder;
         padding-left: 10px;
         margin-left: 10px;
-        line-height: 1;
+        line-height: 2;
     }
     .box4{
         margin-top: 20px;
+        width:auto;
     }
     .box4 p{
         font-size: 15px;
@@ -174,7 +177,7 @@ body{
         display: flex;
         flex-direction:row;
         justify-content: end;
-        margin-top: 20px;
+        margin-top: 50px;
         margin-right: 5px;
         margin-left: 30px;
         margin-bottom: -50px;
