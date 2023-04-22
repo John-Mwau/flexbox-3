@@ -4,6 +4,8 @@
 }
 body{
     background-color: blueviolet;
+    background-size: 600px 700px;
+    background-repeat: repeat-x;
 }
 .heading{
     display: flex;
@@ -19,13 +21,13 @@ body{
     margin-top: 20px;
     margin-left:50px;
     margin-right: 50px;
-    justify-content: center;
 }
 .wrapper1{
     margin-top: 20px;
     margin-right: 10px;
     margin-left:10px;
-
+    display: flex;
+    flex-direction: row;
 }
 .wrapper2{
     margin-left: 50px;
@@ -92,48 +94,49 @@ body{
         margin-left:10px;
         margin-right: 10px;
         justify-content: center;
-        align-items: center;
     }
     .wrapper1{
         margin-top: 20px;
         margin-left:10px;
         margin-right: 10px;
+        display: flex;
+        flex-direction: row;
     }
     .wrapper2{
         margin-left: 10px;
-        display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
     .box3{
         margin-top: 80px;
-        margin-left: 80px;
+        width:auto;
     }
     .box3 p{
-        font-size:35px;
+        font-size:25px;
         color: whitesmoke;
         font-weight: bolder;
         padding-left: 10px;
         margin-left: 10px;
         line-height: 1.5;
+        text-align: center;
     }
     .box4{
         margin-top: 20px;
-        margin-left: 80px;
+        width:auto;
     }
     .box4 p{
-        font-size: 30px;
+        font-size: 20px;
         color: whitesmoke;
         padding-left: 10px;
         line-height: 1.5;
+        padding-right: 5px;
+        text-align: center;
     }
     .box5{
-        margin-left: 80px;
+        margin-left: 90px;
         margin-top: 20px;
     }
     .box5 p{
-        background-color: whitesmoke;
+        background-color: antiquewhite;
         border-radius:70px;
         height: 20px;
         color:blueviolet;
@@ -145,7 +148,7 @@ body{
         display: flex;
         flex-direction:row;
         justify-content: flex-end;
-        margin-left: 150px;
+        margin-left: 100px;
         margin-top: 20px; 
     }
 }
