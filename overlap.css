@@ -21,7 +21,7 @@ body{
     margin-top: 20px;
     margin-left:50px;
     margin-right: 50px;
-    position: relative;
+    justify-content: center;
 }
 .wrapper1{
     margin-top: 20px;
@@ -95,6 +95,7 @@ body{
         margin-left:10px;
         margin-right: 10px;
         justify-content: center;
+        background-color: brown;
     }
     .wrapper1{
         margin-top: 20px;
@@ -102,6 +103,7 @@ body{
         margin-right: 10px;
         display: flex;
         flex-direction: row;
+        background-color: yellowgreen;
     }
     .wrapper2{
         margin-left: 10px;
@@ -110,6 +112,7 @@ body{
     .box3{
         margin-top: 80px;
         width:auto;
+        background-color: aqua;
     }
     .box3 p{
         font-size:25px;
@@ -123,6 +126,7 @@ body{
     .box4{
         margin-top: 20px;
         width:auto;
+        border-color: yellowgreen;
     }
     .box4 p{
         font-size: 20px;
@@ -135,6 +139,7 @@ body{
     .box5{
         margin-left: 90px;
         margin-top: 20px;
+        background-color: azure;
     }
     .box5 p{
         background-color: antiquewhite;
