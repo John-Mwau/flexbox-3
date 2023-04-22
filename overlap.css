@@ -27,8 +27,7 @@ body{
     margin-top: 20px;
     margin-right: 10px;
     margin-left:10px;
-    display: flex;
-    flex-direction: row;
+    background-image: url(images/illustration-mockups.svg);
 }
 .wrapper2{
     margin-left: 50px;
@@ -91,7 +90,6 @@ body{
     .mainwrapper{
         display: flex;
         flex-direction: column;
-        width: 100%;
         margin-top: 20px;
         margin-left:10px;
         margin-right: 10px;
@@ -102,9 +100,7 @@ body{
         margin-top: 20px;
         margin-left:10px;
         margin-right: 10px;
-        display: flex;
-        flex-direction: row;
-        background-color: yellowgreen;
+        width:fit-content
     }
     .wrapper2{
         margin-left: 10px;
@@ -113,7 +109,6 @@ body{
     .box3{
         margin-top: 80px;
         width:auto;
-        background-color: aqua;
     }
     .box3 p{
         font-size:25px;
@@ -127,7 +122,6 @@ body{
     .box4{
         margin-top: 20px;
         width:auto;
-        border-color: yellowgreen;
     }
     .box4 p{
         font-size: 20px;
@@ -140,7 +134,6 @@ body{
     .box5{
         margin-left: 90px;
         margin-top: 20px;
-        background-color: azure;
     }
     .box5 p{
         background-color: antiquewhite;
