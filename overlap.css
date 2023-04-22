@@ -74,15 +74,6 @@ body{
     margin-top: 20px;
     justify-content: flex-end;
 }
-.twitter{
-    margin-right: 15px;
-}
-.instagram{
-    margin-right: 15px;
-}
-.facebook{
-    margin-right: 15px;
-}
 
 @media screen and (max-width:600px){
     .heading{
@@ -110,6 +101,7 @@ body{
     }
     .wrapper2{
         margin-left: 10px;
+        justify-content: center;
     }
     .box3{
         margin-top: 80px;
@@ -121,18 +113,22 @@ body{
         font-weight: bolder;
         padding-left: 10px;
         margin-left: 10px;
-        line-height: 2;
+        line-height: 1.5;
     }
     .box4{
         margin-top: 20px;
         width:auto;
     }
     .box4 p{
-        font-size: 15px;
+        font-size: 20px;
         color: whitesmoke;
         padding-left: 10px;
         line-height: 1.5;
         padding-right: 5px;
+    }
+    .box5{
+        margin-left: 90px;
+        margin-top: 20px;
     }
     .box5 p{
         background-color: antiquewhite;
@@ -146,18 +142,8 @@ body{
     .socialmedia{
         display: flex;
         flex-direction:row;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 20px;
         justify-content: flex-end;
-    }
-    .twitter{
-        margin-right: 15px;
-    }
-    .instagram{
-        margin-right: 15px;
-    }
-    .facebook{
-        margin-right: 15px;
+        margin-left: 100px;
+        margin-top: 20px; 
     }
 }
