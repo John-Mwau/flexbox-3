@@ -12,15 +12,16 @@ body{
     flex-direction: row;
     align-items: center;
     align-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 50px;
 }
 .mainwrapper{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
     margin-left:50px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 .wrapper1{
     margin-top: 20px;
@@ -28,41 +29,41 @@ body{
     margin-left:10px;
     display: flex;
     flex-direction: row;
+    flex: 2
 }
 .wrapper1 img{
     width: 100%; 
     height: auto;
 }
 .wrapper2{
-    margin-left: 50px;
+    margin-top: -30px;
+    margin-right: 10px;
+    margin-left:10px;
+    flex:1;
 }
 .box3{
-    margin-top: 150px;
+    margin-top: 80px;
+    margin-left: 10px;
 }
 .box3 p{
     font-size:35px;
-    color: whitesmoke;
+    color: white;
     font-weight: bolder;
-    padding-left: 20px;
-    text-align: center;
 }
 .box4{
     margin-top: 20px;
+    margin-left: 10px;
 }
 .box4 p{
-    font-size: 20px;
-    color: whitesmoke;
-    padding-left: 20px;
-    line-height: 1.5;
-    padding-right: 5px;
-    text-align: center;
+    font-size: 25px;
+    color: white;
 }
 .box5{
-    margin-left: 90px;
     margin-top: 20px;
+    margin-left: 10px;
 }
 .box5 p{
-    background-color: antiquewhite;
+    background-color: white;
     border-radius:70px;
     height: 20px;
     color:blueviolet;
@@ -76,75 +77,75 @@ body{
 .socialmedia{
     display: flex;
     flex-direction:row;
-    margin-left: 50px;
+    justify-content: flex-end;
+    justify-content: space-evenly;
     margin-right: 50px;
     margin-top: 20px;
-    justify-content: flex-end;
+    margin-left: 85%;
 }
-
 @media screen and (max-width:600px){
+    body{
+        background-color: blueviolet;
+        background-size: 600px 700px;
+        background-repeat: repeat-x;
+    }
     .heading{
         display: flex;
+        flex-direction: row;
         align-items: center;
         align-content: center;
-        margin-top: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-    } 
+        margin-top: 10px;
+        margin-left: 50px;
+    }
     .mainwrapper{
         display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        margin-left:10px;
-        margin-right: 10px;
+        flex-direction: row;
         justify-content: center;
+        align-items: center;
+        margin-left:50px;
+        margin-right: 20px;
     }
     .wrapper1{
         margin-top: 20px;
-        margin-left:10px;
         margin-right: 10px;
+        margin-left:10px;
         display: flex;
         flex-direction: row;
+        flex: 2
     }
     .wrapper1 img{
         width: 100%; 
         height: auto;
     }
     .wrapper2{
-        margin-left: 10px;
-        justify-content: center;
+        margin-top: -30px;
+        margin-right: 10px;
+        margin-left:10px;
+        flex:1;
     }
     .box3{
         margin-top: 80px;
-        width:auto;
+        margin-left: 10px;
     }
     .box3 p{
-        font-size:25px;
-        color: whitesmoke;
+        font-size:35px;
+        color: white;
         font-weight: bolder;
-        padding-left: 10px;
-        margin-left: 10px;
-        line-height: 1.5;
-        text-align: center;
     }
     .box4{
         margin-top: 20px;
-        width:auto;
+        margin-left: 10px;
     }
     .box4 p{
-        font-size: 20px;
-        color: whitesmoke;
-        padding-left: 10px;
-        line-height: 1.5;
-        padding-right: 5px;
-        text-align: center;
+        font-size: 25px;
+        color: white;
     }
     .box5{
-        margin-left: 90px;
         margin-top: 20px;
+        margin-left: 10px;
     }
     .box5 p{
-        background-color: antiquewhite;
+        background-color: white;
         border-radius:70px;
         height: 20px;
         color:blueviolet;
@@ -152,11 +153,16 @@ body{
         text-align: center;
         padding: 20px;
     }
+    .box5 a{
+        text-decoration: none;
+    }
     .socialmedia{
         display: flex;
         flex-direction:row;
         justify-content: flex-end;
-        margin-left: 100px;
-        margin-top: 20px; 
+        justify-content: space-evenly;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-left: 85%;
     }
 }
