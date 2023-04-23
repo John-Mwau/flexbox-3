@@ -29,6 +29,10 @@ body{
     display: flex;
     flex-direction: row;
 }
+.wrapper1 img{
+    width: 100%; 
+    height: auto;
+}
 .wrapper2{
     margin-left: 50px;
 }
@@ -101,6 +105,10 @@ body{
         margin-right: 10px;
         display: flex;
         flex-direction: row;
+    }
+    .wrapper1 img{
+        width: 100%; 
+        height: auto;
     }
     .wrapper2{
         margin-left: 10px;
